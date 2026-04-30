@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>GitHub Messenger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>💬 GitHub Chat</h2>
+            <button id="clearBtn" class="clear-btn">🗑 Очистить</button>
+        </div>
+        <div id="messages" class="messages-area"></div>
+        <div class="input-area">
+            <input type="text" id="nameInput" placeholder="Ваше имя" maxlength="30" value="Гость">
+            <div class="message-input-wrapper">
+                <input type="text" id="messageInput" placeholder="Введите сообщение..." maxlength="500">
+                <button id="sendBtn">📤</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
